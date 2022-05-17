@@ -26,7 +26,7 @@ curl -X POST "http://127.0.0.1:8000/predict" -F file="@demo.png"
     "results": {
         "input_image": {
             "name": "demo.png",
-            "hash": "6c9ed1b20b82112e057ac2ece74795ec"
+            "md5_hash": "6c9ed1b20b82112e057ac2ece74795ec"
         },
         "labeled_image_url": "https://api-s3.aibird.me/api/14705b1a661a.jpg",
         "predictions": {
